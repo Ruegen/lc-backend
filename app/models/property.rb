@@ -1,4 +1,4 @@
 class Property < ApplicationRecord
   has_one :address
-  has_one :local_government_area
+  belongs_to :local_government_area, optional: true
 end
