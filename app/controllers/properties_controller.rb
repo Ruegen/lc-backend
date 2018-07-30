@@ -1,4 +1,4 @@
-class Properties < ApplicationController
+class PropertiesController < ApplicationController
 
     before_action :set_property, only: [:show]
 
