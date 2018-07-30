@@ -1,0 +1,7 @@
+GET http://localhost:3000/api/properties
+
+###
+GET http://localhost:3000/api/properties/1525674
+
+###
+GET http://localhost:3000/api/properties/52858603
